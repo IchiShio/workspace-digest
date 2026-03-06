@@ -31,7 +31,7 @@ SCOPES = [
 
 GCP_PROJECT_ID = os.environ["GCP_PROJECT_ID"]
 GCP_LOCATION = os.getenv("GCP_LOCATION", "us-central1")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.0-flash")
 
 
 # ─── 認証 ────────────────────────────────────────────────────────────────────
